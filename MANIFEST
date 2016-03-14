@@ -2,7 +2,7 @@
 README.markdown
 manage.py
 setup.py
-git_hooks/__init__.py
-git_hooks/gitpull.py
-git_hooks/urls.py
-git_hooks/views.py
+git_hooks\__init__.py
+git_hooks\gitpull.py
+git_hooks\urls.py
+git_hooks\views.py
