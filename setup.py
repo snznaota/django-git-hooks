@@ -3,9 +3,14 @@ from distutils.core import setup
 
 setup(
     name='django-git-hooks',
-    version='0.2.1.1',
+    version='0.3.0',
     packages=['git_hooks', ],
-    requires=['django (>= 1.3)', ],
+    requires=['django (>= 1.9)', ],
+    install_requires=[
+        'progressbar2',
+        'prettytable',
+        'termcolor',
+    ],
     url='https://github.com/snznaota/django-git-hooks.git',
     license='MIT License',
     author='Dezu',
